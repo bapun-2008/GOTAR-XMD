@@ -9,7 +9,7 @@ cmd({
   use: '.menu',
   desc: "Show all bot commands",
   category: "menu",
-  react: "🐍",
+  react: "🖤",
   filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
 
     // Menu principal
     let menuText = `
-*╭══ 𝐆𝐎𝐓𝐀𝐑-𝐗𝐌𝐃*
+*╭══ 𝗗𝗔𝗥𝗞-𝗕𝗔𝗣𝗨𝗡*
 *┃❃* *ᴜsᴇʀ* : @${m.sender.split("@")[0]}
 *┃❃* *ʀᴜɴᴛɪᴍᴇ* : ${uptime()}
 *┃❃* *ᴍᴏᴅᴇ* : *${config.MODE}*
@@ -71,7 +71,7 @@ async (conn, mek, m, { from, reply }) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363401658098220@newsletter',
-          newsletterName: '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
+          newsletterName: '𝗗𝗔𝗥𝗞-𝗕𝗔𝗣𝗨𝗡',
           serverMessageId: 143
         }
       }
